@@ -31,7 +31,7 @@ public class ChatListener implements Listener {
         this.plugin = addon.getPlugin();
     }
 
-    @EventHandler(priority = EventPriority.LOW)
+    @EventHandler(priority = EventPriority.HIGH)
     public void onTeamChat(AsyncPlayerChatEvent event) {
 
         Player player = event.getPlayer();
